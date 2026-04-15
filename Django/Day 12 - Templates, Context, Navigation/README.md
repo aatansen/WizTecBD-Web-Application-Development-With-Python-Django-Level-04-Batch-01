@@ -97,8 +97,8 @@
   <a href="{% url 'about' %}">About</a>
   ```
 
-  > [!NOTE]
-  >
-  > - We will add this in both [home.html](./templates/home.html) and [about.html](./templates/about.html)
-  >
-  > - Note that we will do this in better way in future by learning template mastering
+> [!NOTE]
+>
+> - We will add this in both [home.html](./templates/home.html) and [about.html](./templates/about.html)
+>
+> - Note that we will do this in better way in future by learning template mastering
