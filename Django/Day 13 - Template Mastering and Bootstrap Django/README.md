@@ -3,6 +3,7 @@
 - [Context](#context)
   - [Basic Django Template Mastering](#basic-django-template-mastering)
   - [Advanced Django Template Mastering](#advanced-django-template-mastering)
+  - [Bootstrap in Django Template](#bootstrap-in-django-template)
 
 ## Basic Django Template Mastering
 
@@ -171,6 +172,21 @@
     ```
 
     - Do the same in [about.html](./templates/about.html)
+
+---
+[⬆️ Go to Context](#context)
+
+## Bootstrap in Django Template
+
+> [!NOTE]
+>
+> - We can either use the CDN or download and use it
+> - We will use CDN
+
+- Get [Bootstrap quick start template](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start)
+- Use it in [base.html](./templates/master/base.html)
+- Now also modify [nav.html](./templates/master/nav.html) and use [navbar component](https://getbootstrap.com/docs/5.3/components/navbar/#nav) from bootstrap
+- We can do the same for footer also using [footer component](https://getbootstrap.com/docs/5.3/components/card/#header-and-footer)
 
 ---
 [⬆️ Go to Context](#context)
