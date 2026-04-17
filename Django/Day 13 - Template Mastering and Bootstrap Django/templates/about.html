@@ -1,5 +1,9 @@
-{% include 'nav.html' %}
+{% extends 'master/base.html' %}
 
-<h1>About page</h1>
+{% block title_block %} About {% endblock title_block %}
 
-{% include 'footer.html' %}
+{% block content %}
+
+  <h1>About page</h1>
+
+{% endblock content %}
