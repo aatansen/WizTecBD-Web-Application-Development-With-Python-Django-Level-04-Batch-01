@@ -44,6 +44,9 @@
 
   - Now visit http://127.0.0.1:8000/ to see the output
 
+---
+[⬆️ Go to Context](#context)
+
 ## Context Data
 
 - Inside the `home_page()` function, create a dictionary and pass it to the template using `context`.
@@ -66,6 +69,9 @@
   <h1>Hello {{ name }}</h1>
   <h1>from {{ address }}</h1>
   ```
+
+---
+[⬆️ Go to Context](#context)
 
 ## Navigation Page using URL name
 
@@ -102,3 +108,6 @@
 > - We will add this in both [home.html](./templates/home.html) and [about.html](./templates/about.html)
 >
 > - Note that we will do this in better way in future by learning template mastering
+
+---
+[⬆️ Go to Context](#context)
