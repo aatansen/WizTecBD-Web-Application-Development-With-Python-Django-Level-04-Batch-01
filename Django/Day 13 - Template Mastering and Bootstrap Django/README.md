@@ -26,7 +26,7 @@
   ]
   ```
 
-- Create [home.html](./templates/home.html), [about.html](./templates/about.html), [nav.html](./templates/nav.html), [footer.html](./templates/footer.html) all inside [templates](./templates/)
+- Create [home.html](./templates/home.html), [about.html](./templates/about.html), [nav.html](./templates/master/nav.html), [footer.html](./templates/master/footer.html) all inside [templates](./templates/)
 - Create two function for [home.html](./templates/home.html) and [about.html](./templates/about.html) in [views.py](./templateMastering/views.py)
 
   ```py
@@ -41,12 +41,12 @@
 
 - Add `urlpatterns` inside [urls.py](./templateMastering/urls.py)
 
-- Now two more template left which is [nav.html](./templates/nav.html) and [footer.html](./templates/footer.html)
+- Now two more template left which is [nav.html](./templates/master/nav.html) and [footer.html](./templates/master/footer.html)
 - We will include them inside our [home.html](./templates/home.html) and [about.html](./templates/about.html) using Django `include` tag
 
 > [!NOTE]
 >
-> - We use the URL name in the [nav.html](./templates/nav.html) for navigation
+> - We use the URL name in the [nav.html](./templates/master/nav.html) for navigation
 
 - Using the [include tag](https://docs.djangoproject.com/en/6.0/ref/templates/builtins/#include)
 
