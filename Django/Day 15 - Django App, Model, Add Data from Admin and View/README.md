@@ -83,7 +83,7 @@
 
   class TeacherModel(models.Model):
       name = models.CharField(max_length=100)
-      subject = models.CharField(max_length=100)
+      address = models.CharField(max_length=100)
       email = models.EmailField()
   ```
 
