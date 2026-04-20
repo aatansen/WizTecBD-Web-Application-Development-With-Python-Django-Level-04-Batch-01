@@ -83,11 +83,19 @@
 
   class TeacherModel(models.Model):
       name = models.CharField(max_length=100)
-      address = models.CharField(max_length=100)
+      address = models.CharField(max_length=100) # we can use `TextField` here as address required more character
       email = models.EmailField()
   ```
 
 - Register this model in [admin.py](./school_app/admin.py)
+
+  ```py
+  from django.contrib import admin
+  from school_app.models import *
+
+  # Register your models here.
+  admin.site.register(TeacherModel)
+  ```
 
 ---
 [⬆️ Go to Context](#context)
@@ -122,15 +130,15 @@
 - Apply migration
 
   ```sh
-  py manage.py makemigrations
+  py manage.py makemigrations school_app
   py manage.py migrate school_app
   ````
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > - Each time we create a new model
 > - Each time we change anything to an existing model(modify fields)
-> - We have to run both `makemigrations` and `migrate` command
+> - We have to run both `makemigrations` and `migrate` command with app name
 
 ---
 [⬆️ Go to Context](#context)
