@@ -1,0 +1,25 @@
+{% extends 'master/base.html' %}
+
+{% block content %}
+<a href="{% url 'add_student' %}" class="btn btn-primary">Add Student</a>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>SL</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Roll No</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for student in student_data %}
+        <tr>
+          <td>{{forloop.counter}}</td>
+          <td>{{student.name}}</td>
+          <td>{{student.age}}</td>
+          <td>{{student.roll_no}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
