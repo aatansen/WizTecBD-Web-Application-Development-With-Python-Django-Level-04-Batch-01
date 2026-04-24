@@ -1,0 +1,15 @@
+{% extends 'master/base.html' %}
+
+
+{% block content %}
+<h1>View student info</h1>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{student_data.name}}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">{{student_data.age}}</h6>
+    <h6 class="card-subtitle mb-2 text-body-secondary">{{student_data.roll_no}}</h6>
+  </div>
+</div>
+
+{% endblock content %}

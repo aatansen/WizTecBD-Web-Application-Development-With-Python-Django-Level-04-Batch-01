@@ -1,0 +1,21 @@
+{% extends 'master/base.html' %}
+
+{% block content %}
+<h1>Student update page</h1>
+  <form method="POST">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label for="" class="form-label">Name</label>
+      <input type="text" name="name" value="{{student_data.name}}" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Age</label>
+      <input type="number" name="age" value="{{student_data.age}}" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Roll No</label>
+      <input type="number" name="roll_no" value="{{student_data.roll_no}}" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>
+{% endblock %}
