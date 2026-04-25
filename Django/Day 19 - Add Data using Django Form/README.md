@@ -40,6 +40,7 @@
       > For error free code we use both the same
 
   - Another new field is image field where we use `ImageField` and `upload_to`
+    - We have to install new package [pillow](https://pypi.org/project/pillow/) in order to make the image field work
     - We need to setup this from official docs: "[Serving files uploaded by a user during development](https://docs.djangoproject.com/en/6.0/howto/static-files/#serving-files-uploaded-by-a-user-during-development)"
     - Copy the `MEDIA_ROOT`
     - Put it inside project [urls.py](./form_project/urls.py)
@@ -169,6 +170,7 @@
 
 > [!IMPORTANT]
 >
+> - A new package [pillow](https://pypi.org/project/pillow/) is required to make the image field work
 > - You must use `enctype="multipart/form-data"` in form to accept image/file
 > - Make sure you used `ProductForm(request.POST, request.FILES)` in backend otherwise you wont be able to save data/files/image
 
