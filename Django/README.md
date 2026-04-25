@@ -13,3 +13,4 @@
 - [Day 16 - Setup Everything Inside App, Data Add From Frontend And Show](./Day%2016%20-%20Setup%20Everything%20Inside%20App,%20Data%20Add%20From%20Frontend%20And%20Show/)
 - Day 17 - Written, Quiz, Practical Exam
 - [Day 18 - View, Update, Delete](./Day%2018%20-%20View,%20Update,%20Delete/)
+- [Day 19 - Day 19 - Add Data using Django Form](./Day%2019%20-%20Add%20Data%20using%20Django%20Form/)
