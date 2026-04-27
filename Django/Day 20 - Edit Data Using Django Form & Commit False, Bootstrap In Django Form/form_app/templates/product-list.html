@@ -17,6 +17,7 @@
       <th scope="col">Product Qty</th>
       <th scope="col">Product Total Amount</th>
       <th scope="col">Product Category</th>
+      <th scope="col">Product Date</th>
       <th scope="col">Product Img</th>
       <th scope="col">Action</th>
     </tr>
@@ -32,6 +33,7 @@
     <td>{{data.product_qty}}</td>
     <td>{{data.product_total_amount}}</td>
     <td>{{data.product_cat}}</td>
+    <td>{{data.product_date}}</td>
     <td>
       {% if data.product_img %}
       <img src="{{data.product_img.url}}" alt="product image" width="20">

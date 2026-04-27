@@ -4,6 +4,7 @@
   - [Edit Data Using Django Form](#edit-data-using-django-form)
   - [Django Form Commit False](#django-form-commit-false)
   - [Bootstrap In Django Form](#bootstrap-in-django-form)
+  - [Radio Select And Date Field In Django Form](#radio-select-and-date-field-in-django-form)
 
 ## Edit Data Using Django Form
 
@@ -203,6 +204,32 @@
     ```
 
     - Do the same in [product-edit.html](./form_app/templates/product-edit.html)
+
+---
+[⬆️ Go to Context](#context)
+
+## Radio Select And Date Field In Django Form
+
+- We already have category field in our model `product_cat` in [models.py](./form_app/models.py), we will make it radio select. And add a date field `product_date`
+- In [forms.py](./form_app/forms.py) we have to manually make those changes using `widgets` for others field crispy will handle it auto
+
+  ```py
+  class ProductForm(forms.ModelForm):
+    class Meta:
+      model=ProductModel
+      fields='__all__'
+      exclude=['product_total_amount']
+
+      widgets = {
+          'product_cat': forms.RadioSelect(attrs={
+            "class": "form-check-input",
+          }),
+          'product_date':forms.DateInput(attrs={
+            "class": "form-control",
+            "type": "date"
+          })
+      }
+  ```
 
 ---
 [⬆️ Go to Context](#context)

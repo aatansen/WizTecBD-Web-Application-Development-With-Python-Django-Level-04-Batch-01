@@ -7,6 +7,7 @@ class ProductModel(models.Model):
   product_description=models.TextField(null=True)
   product_qty=models.PositiveIntegerField(null=True)
   product_total_amount=models.FloatField(null=True)
+  product_date=models.DateField(null=True)
 
   PRODUCT_CATEGORY=[
     ('Electric','Electric'),
@@ -15,6 +16,5 @@ class ProductModel(models.Model):
   ]
   product_cat=models.CharField(choices=PRODUCT_CATEGORY,null=True)
   product_img=models.ImageField(upload_to='media/product_imgs',null=True)
-
   def __str__(self):
     return f'{self.product_name}'

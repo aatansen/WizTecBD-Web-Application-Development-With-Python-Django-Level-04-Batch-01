@@ -7,6 +7,16 @@ class ProductForm(forms.ModelForm):
     fields='__all__'
     exclude=['product_total_amount']
 
+    widgets = {
+        'product_cat': forms.RadioSelect(attrs={
+          "class": "form-check-input",
+        }),
+        'product_date':forms.DateInput(attrs={
+          "class": "form-control",
+          "type": "date"
+        })
+    }
+
   # override __init__ and update using for loop
   # def __init__(self, *args, **kwargs):
   #   super().__init__(*args, **kwargs)
@@ -23,7 +33,7 @@ class ProductForm(forms.ModelForm):
     #     'product_description': forms.Textarea(attrs={'class': 'form-control'}),
     #     'product_qty': forms.NumberInput(attrs={'class': 'form-control'}),
 
-    #     # Choice field → use form-select
+    #     # Choice field use form-select
     #     'product_cat': forms.Select(attrs={'class': 'form-select'}),
 
     #     # File input
