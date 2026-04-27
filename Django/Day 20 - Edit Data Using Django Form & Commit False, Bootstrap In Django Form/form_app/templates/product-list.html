@@ -1,0 +1,51 @@
+{% extends 'master/base.html' %}
+
+
+{% block content %}
+
+<h1>Product list</h1>
+
+<a href="{% url 'product_add' %}" class="btn btn-primary">Add Product</a>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Product Description</th>
+      <th scope="col">Product Price</th>
+      <th scope="col">Product Qty</th>
+      <th scope="col">Product Total Amount</th>
+      <th scope="col">Product Category</th>
+      <th scope="col">Product Img</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for data in product_data %}
+    <tr>
+    <th scope="row">{{forloop.counter}}</th>
+    <td>{{data.product_name}}</td>
+    <td>{{data.product_description}}</td>
+    <td>{{data.product_price}}</td>
+    <td>{{data.product_qty}}</td>
+    <td>{{data.product_total_amount}}</td>
+    <td>{{data.product_cat}}</td>
+    <td>
+      {% if data.product_img %}
+      <img src="{{data.product_img.url}}" alt="product image" width="20">
+      {% else %}
+      No image
+      {% endif %}
+    </td>
+    <td>
+      <a href="{% url 'product_edit' data.id %}" class="btn btn-warning">Edit</a>
+    </td>
+    </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+
+{% endblock content %}
