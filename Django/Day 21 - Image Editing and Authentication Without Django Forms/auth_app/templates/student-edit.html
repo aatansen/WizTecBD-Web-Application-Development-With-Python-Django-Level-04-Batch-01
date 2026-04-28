@@ -1,0 +1,25 @@
+{% extends 'master/base.html' %}
+
+{% block content %}
+
+<h1>Update Student</h1>
+
+<form action="" method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+
+<label for="" class="form-label">Name</label>
+<input type="text" class="form-control" name="name" value="{{student_data.name}}">
+<label for="" class="form-label">Profile Pic</label>
+<input type="file" class="form-control" name="profile_pic" value="{{student_data.profile_pic}}">
+<p>Current Image:</p>
+{% if student_data.profile_pic %}
+<img src="{{student_data.profile_pic.url}}" alt="" width="30px">
+{% else %}
+No image
+{% endif %}
+
+<br>
+<br>
+<button class="btn btn-success" type="submit">Update</button>
+</form>
+{% endblock content %}

@@ -15,3 +15,4 @@
 - [Day 18 - View, Update, Delete](./Day%2018%20-%20View,%20Update,%20Delete/)
 - [Day 19 - Add Data using Django Form](./Day%2019%20-%20Add%20Data%20using%20Django%20Form/)
 - [Day 20 - Edit Data Using Django Form & Commit False, Bootstrap In Django Form](./Day%2020%20-%20Edit%20Data%20Using%20Django%20Form%20&%20Commit%20False,%20Bootstrap%20In%20Django%20Form/)
+- [Day 21 - Image Editing and Authentication Without Django Forms](./Day%2021%20-%20Image%20Editing%20and%20Authentication%20Without%20Django%20Forms/)

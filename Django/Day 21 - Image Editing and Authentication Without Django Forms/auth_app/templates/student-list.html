@@ -1,0 +1,41 @@
+{% extends 'master/base.html' %}
+
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<a href="{% url 'student_add' %}" class="btn btn-primary">Add Student</a>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Profile Pic</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for st in student_data %}
+    <tr>
+      <th scope="row">{{forloop.counter}}</th>
+      <td>{{st.name}}</td>
+      <td>
+        {% if st.profile_pic %}
+        <img src="{{st.profile_pic.url}}" alt="" width="60px">
+        {% else %}
+        No Image
+        {% endif %}
+      </td>
+      <td>
+        <a href="{% url 'student_edit' st.id %}" class="badge text-bg-warning">Edit</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<h1>You are not login</h1>
+{% endif %}
+
+{% endblock content %}

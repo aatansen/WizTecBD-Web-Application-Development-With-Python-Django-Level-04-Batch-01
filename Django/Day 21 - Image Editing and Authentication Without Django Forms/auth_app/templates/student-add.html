@@ -1,0 +1,17 @@
+{% extends 'master/base.html' %}
+
+{% block content %}
+
+<h1>Add Student</h1>
+
+<form action="" method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+
+<label for="" class="form-label">Name</label>
+<input type="text" class="form-control" name="name">
+<label for="" class="form-label">Profile Pic</label>
+<input type="file" class="form-control" name="profile_pic">
+<br>
+<button class="btn btn-success" type="submit">Submit</button>
+</form>
+{% endblock content %}
