@@ -17,3 +17,5 @@
 - [Day 20 - Edit Data Using Django Form & Commit False, Bootstrap In Django Form](./Day%2020%20-%20Edit%20Data%20Using%20Django%20Form%20&%20Commit%20False,%20Bootstrap%20In%20Django%20Form/)
 - [Day 21 - Image Editing and Authentication Without Django Forms](./Day%2021%20-%20Image%20Editing%20and%20Authentication%20Without%20Django%20Forms/)
 - [Day 22 - Demonstration-02(To-Do List Application)](./Day%2022%20-%20Demonstration-02(To-Do%20List%20Application)/)
+- Day 23 - Demonstration-02(To-Do List Application) Practice
+- [Day 24 - One-to-One Relationship, Profile Update](./Day%2024%20-%20One-to-One%20Relationship,%20Profile%20Update/)

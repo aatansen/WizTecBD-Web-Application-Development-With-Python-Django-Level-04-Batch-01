@@ -1,0 +1,35 @@
+{% extends 'master/base.html' %}
+
+
+{% block content %}
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ task_data.title }}</h5>
+
+    <p class="card-text">
+      {{ task_data.description }}
+    </p>
+
+    <p class="card-text">
+      <strong>Status:</strong> {{ task_data.status }}
+    </p>
+
+    <p class="card-text">
+      <strong>Due:</strong> {{ task_data.due_date }}
+    </p>
+
+    <p class="card-text">
+      <small class="text-muted">
+        Created: {{ task_data.created_at }}
+      </small>
+    </p>
+
+    <p class="card-text">
+    <small class="text-muted">
+      Created by: {{ task_data.created_by }}
+    </small>
+    </p>
+
+  </div>
+</div>
+{% endblock content %}
