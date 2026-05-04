@@ -1,0 +1,43 @@
+{% extends 'master/base.html' %}
+
+
+{% block content %}
+<h1>Register Page</h1>
+{% include 'master/messages.html' %}
+<form method="POST">
+  {% csrf_token %}
+  
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Full Name</label>
+    <input type="text" name="full_name" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Email</label>
+    <input type="email" name="email" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Username</label>
+    <input type="text" name="username" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">User Type</label>
+    <select class="form-select" name="user_type" aria-label="Default select example">
+      <option selected>Select User Type</option>
+      <option value="seller">Seller</option>
+      <option value="buyer">Buyer</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+    <input type="password" name="c_password" class="form-control" id="exampleInputPassword1">
+  </div>
+    <a href="{% url 'login_page' %}">Already have an account?</a>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% endblock content %}

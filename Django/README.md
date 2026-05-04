@@ -19,3 +19,4 @@
 - [Day 22 - Demonstration-02(To-Do List Application)](./Day%2022%20-%20Demonstration-02(To-Do%20List%20Application)/)
 - Day 23 - Demonstration-02(To-Do List Application) Practice
 - [Day 24 - One-to-One Relationship, Profile Update](./Day%2024%20-%20One-to-One%20Relationship,%20Profile%20Update/)
+- [Day 25 - Foreignkey Relationship and Django Messages](./Day%2025%20-%20Foreignkey%20Relationship%20and%20Django%20Messages/)
