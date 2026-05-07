@@ -20,4 +20,5 @@
 - Day 23 - Demonstration-02(To-Do List Application) Practice
 - [Day 24 - One-to-One Relationship, Profile Update](./Day%2024%20-%20One-to-One%20Relationship,%20Profile%20Update/)
 - [Day 25 - Foreignkey Relationship and Django Messages](./Day%2025%20-%20Foreignkey%20Relationship%20and%20Django%20Messages/)
-- [Day 26 - Django Calorie Counter Project using Django Form](https://github.com/aatansen/Django-Calorie-Counter-using-Django-Form)
+- Day 26 - Django Calorie Counter Project using [Django Form](https://github.com/aatansen/Django-Calorie-Counter-using-Django-Form) & [HTML Form](https://github.com/aatansen/Django-Calorie-Counter-using-HTML-Form)
+- Day 27 - Django Calorie Counter Project using Django Form Practice
