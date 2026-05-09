@@ -242,7 +242,7 @@
     CRISPY_TEMPLATE_PACK = "bootstrap5"
     ```
 
-    In eacg HTML form page we have to load the form tags
+    In each HTML form page we have to load the form tags
 
     ```jinja
     {% load crispy_forms_tags %}
