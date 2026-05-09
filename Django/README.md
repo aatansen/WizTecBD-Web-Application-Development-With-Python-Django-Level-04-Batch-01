@@ -17,8 +17,9 @@
 - [Day 20 - Edit Data Using Django Form & Commit False, Bootstrap In Django Form](./Day%2020%20-%20Edit%20Data%20Using%20Django%20Form%20&%20Commit%20False,%20Bootstrap%20In%20Django%20Form/)
 - [Day 21 - Image Editing and Authentication Without Django Forms](./Day%2021%20-%20Image%20Editing%20and%20Authentication%20Without%20Django%20Forms/)
 - [Day 22 - Demonstration-02(To-Do List Application)](./Day%2022%20-%20Demonstration-02(To-Do%20List%20Application)/)
-- Day 23 - Demonstration-02(To-Do List Application) Practice
+- Day 23 - Demonstration-02(To-Do List Application) (*Practice*)
 - [Day 24 - One-to-One Relationship, Profile Update](./Day%2024%20-%20One-to-One%20Relationship,%20Profile%20Update/)
 - [Day 25 - Foreignkey Relationship and Django Messages](./Day%2025%20-%20Foreignkey%20Relationship%20and%20Django%20Messages/)
 - Day 26 - Django Calorie Counter Project using [Django Form](https://github.com/aatansen/Django-Calorie-Counter-using-Django-Form) & [HTML Form](https://github.com/aatansen/Django-Calorie-Counter-using-HTML-Form)
-- Day 27 - Django Calorie Counter Project using Django Form Practice
+- Day 27 - Django Calorie Counter Project using Django Form (*Practice*)
+- Day 28 - Django Calorie Counter Project using Django Form (*Time Challenge*)
