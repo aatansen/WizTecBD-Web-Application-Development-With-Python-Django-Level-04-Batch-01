@@ -25,4 +25,4 @@
 - Day 28 - Django Calorie Counter Project using Django Form (*Time Challenge*)
 - Day 29 - Django Calorie Counter Project using Django Form & HTML Form (*Exam*)
 - Day 30-31 - Django Cash Management Project Using [Django Form](https://github.com/aatansen/Django-Cash-Management-Project-using-Django-Form) & [HTML Form](https://github.com/aatansen/Django-Cash-Management-Project-using-HTML-Form)
-- Day 32-33 - Django Job Portal Project Using [Django Form](https://github.com/aatansen/Django-Job-Portal-Project-using-Django-Form)
+- Day 32-34 - Django Job Portal Project Using [Django Form](https://github.com/aatansen/Django-Job-Portal-Project-using-Django-Form)
