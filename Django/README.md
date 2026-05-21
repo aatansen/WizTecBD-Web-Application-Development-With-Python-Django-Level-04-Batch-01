@@ -27,4 +27,6 @@
 - Day 30-31 - Django Cash Management Project Using [Django Form](https://github.com/aatansen/Django-Cash-Management-Project-using-Django-Form) & [HTML Form](https://github.com/aatansen/Django-Cash-Management-Project-using-HTML-Form)
 - Day 32-34 - Django Job Portal Project Using [Django Form](https://github.com/aatansen/Django-Job-Portal-Project-using-Django-Form)
 - Day 35 - Django Job Portal Project Practice
-- [Day 36 - Exam & Django Rest Framework Part 01](./Day%2036%20-%20Django%20Rest%20Framework%20Part%2001/)
+- [Day 36 - Django Rest Framework Part 01](./Day%2036%20-%20Django%20Rest%20Framework%20Part%2001/) & Exam
+- Day 37 - [Job Portal Status Update](https://github.com/aatansen/Django-Job-Portal-Project-using-Django-Form) & [Django Deployment Guide(Python Anywhere)](https://github.com/aatansen/Django-Deployment-Guide)
+- [Day 38 - Django Rest Framework Part 02](./Day%2038%20-%20Django%20Rest%20Framework%20Part%2002/) & Deployment recap

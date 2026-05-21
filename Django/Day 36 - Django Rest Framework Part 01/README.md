@@ -1,7 +1,6 @@
 # Context
 
 - [Context](#context)
-  - [Django Rest Framework Part 01](#django-rest-framework-part-01)
   - [CRUD using Function based `api_view`](#crud-using-function-based-api_view)
     - [Initial Setup](#initial-setup)
     - [Serializers](#serializers)
@@ -10,8 +9,6 @@
     - [Improve The Response](#improve-the-response)
     - [POST Request](#post-request)
     - [Individual Data View, Update, Delete](#individual-data-view-update-delete)
-
-## Django Rest Framework Part 01
 
 ## CRUD using Function based `api_view`
 
