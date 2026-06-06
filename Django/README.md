@@ -31,3 +31,4 @@
 - Day 37 - [Job Portal Status Update](https://github.com/aatansen/Django-Job-Portal-Project-using-Django-Form) & [Django Deployment Guide(Python Anywhere)](https://github.com/aatansen/Django-Deployment-Guide)
 - [Day 38 - Django Rest Framework Part 02](./Day%2038%20-%20Django%20Rest%20Framework%20Part%2002/) & Deployment recap
 - Day 39 – Exam Sheet Signing And Farewell Before Eid-ul-Adha
+- Day 40 - Django Calorie Counter Project (*Practice*)
