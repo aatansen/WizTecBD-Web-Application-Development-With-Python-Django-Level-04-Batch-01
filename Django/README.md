@@ -34,3 +34,4 @@
 - Day 40 - Django Calorie Counter Project (*Practice*)
 - Day 41 - Written Exam 02
 - Day 42 - Written Exam 03
+- Day 43 - Written Exam 04 (*abandoned*)
