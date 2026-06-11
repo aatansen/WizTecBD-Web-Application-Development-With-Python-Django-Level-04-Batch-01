@@ -35,3 +35,4 @@
 - Day 41 - Written Exam 02
 - Day 42 - Written Exam 03
 - Day 43 - Written Exam 04 (*abandoned*)
+- [Day 44 - Cpanel Deployment](https://github.com/aatansen/Django-Deployment-Guide#cpanel-deployment)
