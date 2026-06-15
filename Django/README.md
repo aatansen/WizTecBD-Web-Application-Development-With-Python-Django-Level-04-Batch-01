@@ -36,3 +36,5 @@
 - Day 42 - Written Exam 03
 - Day 43 - Written Exam 04 (*abandoned*)
 - [Day 44 - Cpanel Deployment](https://github.com/aatansen/Django-Deployment-Guide#cpanel-deployment)
+- Day 45 - Deployment Recap and Issues solve
+- [Day 46 - Static in Django Deployment](https://github.com/aatansen/Django-Deployment-Guide#re_path-vs-static-vs-whitenoise)
