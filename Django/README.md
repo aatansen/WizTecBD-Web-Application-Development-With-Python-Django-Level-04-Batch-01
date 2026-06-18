@@ -40,3 +40,4 @@
 - [Day 46 - Static in Django Deployment](https://github.com/aatansen/Django-Deployment-Guide#re_path-vs-static-vs-whitenoise)
 - Day 47 - Assessment Tools Introduction
 - Day 48 - Project Guide & Assessment Tools (*Online Class*)
+- Day 49 - Domain Hosting
